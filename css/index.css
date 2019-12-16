@@ -159,20 +159,34 @@ p {
 
 .navparent {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 nav a {
+  position: relative;
+  top: 12px;
   margin-top: 5px;
   margin-bottom: 5px;
-  padding: 0px 40px 0px 30px;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 0px 40px 0px 40px;
   cursor: pointer;
   color: black;
 }
 
+a:hover {
+  color: red;
+}
+
 .aboutimg {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.jumboimg {
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -191,10 +205,10 @@ nav a {
 }
 
 .box {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 20px;
-  width: 48%;
-  height: 400px;
+  width: 46%;
+  height: 420px;
   border-bottom: 1px dashed black;
 }
 
